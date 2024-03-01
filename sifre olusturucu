@@ -1,0 +1,10 @@
+import random 
+
+sifre = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+uzunluk = int(input("şifreniz ne kadar uzun olsun"))
+sonuc= ""
+for i in range(uzunluk):
+    sonuc  += random.choice(sifre)
+
+print(sonuc)    
+
